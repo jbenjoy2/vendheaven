@@ -1,0 +1,29 @@
+.VendingMachine {
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.VendingMachine .Greeting {
+	width: 30%;
+}
+
+a,
+.VendingMachine-link {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.VendingMachine-link:hover {
+	background-color: red;
+	color: orange;
+	font-weight: bold;
+	text-decoration: underline;
+}

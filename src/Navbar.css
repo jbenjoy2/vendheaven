@@ -1,0 +1,16 @@
+.Navbar {
+	background-color: darkslateblue;
+	padding: .5rem;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.Navbar a {
+	font-size: 1.5rem;
+	margin: 5px;
+	color: lightcoral;
+}
+.Navbar a.active {
+	color: red;
+	font-weight: bold;
+}

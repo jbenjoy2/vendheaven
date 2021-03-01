@@ -1,0 +1,30 @@
+.Skittles {
+	width: 100vw;
+	height: 100vh;
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.Skittles .Greeting {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.Skittles-header {
+	font-size: 1.5rem;
+	transition: font-size .75s;
+}
+
+.Skittles-header:hover {
+	background: red;
+	background: -webkit-linear-gradient(left, orange, yellow, green, cyan, blue, violet);
+	background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+	background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+	background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 5vw;
+	cursor: none;
+}

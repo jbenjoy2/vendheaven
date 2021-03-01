@@ -1,0 +1,35 @@
+.Cookies {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Cookies .Greeting {
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 80%;
+	display: flex;
+	justify-content: center;
+}
+.Cookies .Greeting h1 {
+	background-color: rgba(0, 0, 0, 1);
+	color: Yellow;
+	border-radius: 15px;
+	padding: 5px;
+}
+.Cookies .Greeting a {
+	background-color: rgba(0, 0, 0, 1);
+	color: yellow;
+	border-radius: 15px;
+	padding: 5px;
+	transition: background-color .5s;
+}
+.Cookies .Greeting a:hover {
+	background-color: rgb(67, 75, 140);
+	color: yellow;
+	border-radius: 15px;
+	padding: 5px;
+	text-decoration: none;
+}
